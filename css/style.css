@@ -1,0 +1,31 @@
+
+.navbar {
+    background-color: #16a085;
+}
+nav div a img {
+    background-color: #16a085;
+}
+.nav .div .div .li .a {
+    color: white;
+}
+#categorias {
+    background-color: #eeeeee;
+}
+
+
+/* LOGOS */
+#logosMarcas {
+    grid-area: logos;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.logosMarcas a img {
+    width: 220px;
+    height: auto;
+    padding: 0 auto;
+    margin: 0 auto;
+    vertical-align: middle;
+}
