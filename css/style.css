@@ -33,6 +33,9 @@ nav div a img {
 
 
 
+
+
+
 @media (max-width:450 px){
     .navbar{
     }
@@ -42,7 +45,13 @@ nav div a img {
         "foto4"
         "foto5"
         "foto6";
-}
+    }
+    .logoTodoExplosion img {
+        display: none;
+    }
+    .carousel-item img {
+        height: 500px;
+    }
 }
 
 
