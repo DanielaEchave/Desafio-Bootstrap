@@ -8,7 +8,7 @@ nav div a img {
 .nav .div .div .li .a {
     color: white;
 }
-#categorias {
+#categorias, .body {
     background-color: #eeeeee;
 }
 
@@ -28,4 +28,29 @@ nav div a img {
     padding: 0 auto;
     margin: 0 auto;
     vertical-align: middle;
+}
+
+
+@media (max-width:450 px){
+    .navbar{
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 450px) {
+
+
+
+    /* FORMULARIO */
+    form {
+        width: 450px;
+    }
+    .form-outline {
+        justify-content: center;
+    }
 }
