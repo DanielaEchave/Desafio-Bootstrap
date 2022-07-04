@@ -8,7 +8,7 @@ nav div a img {
 .nav .div .div .li .a {
     color: white;
 }
-#categorias, {
+#categorias {
     background-color: #eeeeee;
 }
 
@@ -34,7 +34,7 @@ div.collage img {
     background: white;
     transition: background ease-in .3s;
     transition: transform .2s;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 div.collage img:hover {/* 
     filter: grayscale(.95); */
@@ -42,7 +42,7 @@ div.collage img:hover {/*
     transform: scale(1.02);
 }
 
-@media (max-width:450 px){
+@media (max-width:450px){
     .navbar{
     }
     /* CATEGORIAS */
