@@ -30,11 +30,17 @@ nav div a img {
     vertical-align: middle;
 }
 
-
-
-
-
-
+div.collage img {
+    background: white;
+    transition: background ease-in .3s;
+    transition: transform .2s;
+  margin: 0 auto;
+}
+div.collage img:hover {/* 
+    filter: grayscale(.95); */
+    filter: brightness(1.5);
+    transform: scale(1.02);
+}
 
 @media (max-width:450 px){
     .navbar{
